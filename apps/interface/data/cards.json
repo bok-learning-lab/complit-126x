@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Creation of Light",
+    "source": "Genesis 1:1-4",
+    "era": "Ancient",
+    "themes": [
+      "Creation",
+      "Duality",
+      "Divine Intervention",
+      "Light vs Darkness"
+    ],
+    "key_images": [
+      "A vast void with swirling dark waters",
+      "A radiant burst of light breaking through darkness",
+      "The silhouette of God transcending the cosmos",
+      "Divided realms of light and dark"
+    ],
+    "mood": "Transcendental Awe",
+    "flavor_quote": "And God said, Let there be light: and there was light.",
+    "power_rating": 10,
+    "art_prompt": "A cosmic scene depicting the moment of creation: a dark void filled with turbulent waters, illuminated by a radiant burst of divine light emerging from the center. God, an ethereal figure with majestic wings and glowing aura, stands amidst the light, casting shadows away as beams of golden sunlight pierce through the darkness. The contrast between the vibrant light and the deep shadows creates a dramatic atmosphere, symbolizing the cosmic battle between chaos and order.",
+    "id": "genesis",
+    "image_path": "/cards/genesis.png",
+    "original_text": "In the beginning God created the heaven and the earth. And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters. And God said, Let there be light: and there was light. And God saw the light, that it was good: and God divided the light from the darkness."
+  },
+  {
+    "title": "Creation of the Cosmos",
+    "source": "Hesiod's Theogony",
+    "era": "Ancient Greece",
+    "themes": [
+      "Cosmogony",
+      "Dichotomy of Light and Darkness",
+      "Power of Love",
+      "Eternal Struggle"
+    ],
+    "key_images": [
+      "The Void as a swirling abyss",
+      "Broad-bosomed Earth rising from the void",
+      "Eros as a radiant figure amidst chaos",
+      "Darkness and Night juxtaposed with Light and Day"
+    ],
+    "mood": "Epic and Mystical",
+    "flavor_quote": "From the Void sprang forth the eternal; out of Darkness, Light embraced the world.",
+    "power_rating": 10,
+    "art_prompt": "Depict an epic cosmic scene at the moment of creation: a swirling, infinite Void in deep blues and blacks, giving way to the emergence of the broad-bosomed Earth, depicted as a magnificent, fertile realm bursting forth with flora and fauna. In the forefront, Eros shines as a radiant, ethereal being, his presence illuminating the dark surroundings. To the sides, portray the contrasting figures of Darkness and Night enveloping the scene, while vibrant streams of Light and Day burst forth from their union, casting dramatic shadows and reflections across the Earth, showcasing the fundamental battle between darkness and light.",
+    "id": "theogony",
+    "image_path": "/cards/theogony.png",
+    "original_text": "First of all, the Void came into being, next broad-bosomed Earth, the solid and eternal home of all, and Eros, the most beautiful of the immortal gods, who in every man and every god softens the sinews and overpowers the prudent purpose of the mind. Out of Void came Darkness and black Night, and out of Night came Light and Day, her children conceived after union in love with Darkness."
+  },
+  {
+    "title": "Chaos: The Pregnant Void",
+    "source": "Ovid's Metamorphoses",
+    "era": "Roman Mythology",
+    "themes": [
+      "Creation",
+      "Cosmic Order",
+      "Duality",
+      "Transformation"
+    ],
+    "key_images": [
+      "A dark swirling mass representing primordial chaos",
+      "Fragmented elements of earth, air, water, and fire intermingling",
+      "Seeds and potential energy caught in turmoil and strife",
+      "Dramatic void filled with shadows and glimmers of light hinting at creation"
+    ],
+    "mood": "Eerie and Momentous",
+    "flavor_quote": "In the beginning, all was Chaos\u2014a tumultuous womb of potentiality, waiting to be born.",
+    "power_rating": 9,
+    "art_prompt": "Illustrate a vast cosmic canvas depicting the chaotic void before creation, characterized by swirling masses of dark shadows infused with flickers of light. Veins of energy pulse through the chaos, hinting at the nascent forms of earth, sky, and seas. Elements like jagged rocks and turbulent winds collide within this primordial scene, symbolizing conflict and the unrefined state of existence. The overwhelming darkness should be contrasted with bright flashes representing the potential for order and beauty, creating an epic atmosphere laden with anticipation.",
+    "id": "metamorphoses",
+    "image_path": "/cards/metamorphoses.png",
+    "original_text": "Before the sea and lands began to be, before the sky had mantled everything, Nature displayed a single face, which they called Chaos: a raw and undivided mass, nothing but weight, lifeless, whose components were heaped together, where seeds of things had been rudely lumped, of things in strife, things jostled by things."
+  }
+]

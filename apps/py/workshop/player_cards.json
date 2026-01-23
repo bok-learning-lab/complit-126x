@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Genesis: The Creation",
+    "source": "The Bible (Genesis 1:1-4)",
+    "era": "Ancient Times",
+    "themes": [
+      "Creation",
+      "Light vs. Darkness",
+      "Divine Authority",
+      "Chaos to Order"
+    ],
+    "key_images": [
+      "The Beginning",
+      "Light and Darkness",
+      "The Deep Waters",
+      "The Word of God"
+    ],
+    "mood": "Solemn and Majestic",
+    "flavor_quote": "And God said, Let there be light: and there was light.",
+    "power_rating": 10
+  },
+  {
+    "title": "PlayerCard",
+    "source": "Hesiod's Theogony",
+    "era": "Ancient Greece",
+    "themes": [
+      "Cosmogony",
+      "Duality of Existence",
+      "Creation",
+      "Divine Love",
+      "Order from Chaos"
+    ],
+    "key_images": [
+      "Void",
+      "Earth",
+      "Eros",
+      "Darkness",
+      "Night",
+      "Light",
+      "Day"
+    ],
+    "mood": "Mysterious and Majestic",
+    "flavor_quote": "'First of all, the Void came into being, next broad-bosomed Earth... Eros, the most beautiful of the immortal gods.'",
+    "power_rating": 10
+  },
+  {
+    "title": "PlayerCard",
+    "source": "Ovid's Metamorphoses",
+    "era": "Roman (1st Century AD)",
+    "themes": [
+      "Creation",
+      "Chaos",
+      "Transformation",
+      "Duality",
+      "Origin of the Universe"
+    ],
+    "key_images": [
+      "Chaos",
+      "Undivided Mass",
+      "Lifeless Weight",
+      "Strife"
+    ],
+    "mood": "Mysterious and Primordial",
+    "flavor_quote": "Nature displayed a single face, which they called Chaos: a raw and undivided mass.",
+    "power_rating": 9
+  }
+]

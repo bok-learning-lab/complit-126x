@@ -1,0 +1,7 @@
+{
+  "name": "complit",
+  "private": true,
+  "scripts": {
+    "interface": "pnpm --filter interface dev"
+  }
+}
