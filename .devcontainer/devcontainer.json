@@ -1,0 +1,47 @@
+{
+  "name": "COMPLIT-126X",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter-renderers",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.askForKernelRestart": false,
+        "jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"],
+        "notebook.cellToolbarLocation": {
+          "default": "right"
+        }
+      }
+    }
+  },
+
+  "postCreateCommand": "bash setup.sh",
+
+  "secrets": {
+    "OPENAI_API_KEY": {
+      "description": "Your OpenAI API key from platform.openai.com. Required for all notebook exercises."
+    }
+  },
+
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Next.js Interface",
+      "onAutoForward": "notify"
+    }
+  }
+}
