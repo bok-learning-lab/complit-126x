@@ -2,41 +2,71 @@
 
 Computational approaches to literature — Python notebooks and a Next.js interface for exploring texts with AI.
 
-## Quick Start (GitHub Codespaces)
+---
 
-### Step 1: Set Up Your API Key (Before Creating Codespace)
+## Getting Started with Notebooks
 
-1. Go to [github.com/settings/codespaces](https://github.com/settings/codespaces)
-2. Scroll to **Secrets**
-3. Click **New secret**
-4. Name: `OPENAI_API_KEY`
-5. Value: Your OpenAI API key (get one at [platform.openai.com](https://platform.openai.com))
-6. Repository access: Select this repository (or "All repositories")
+Your workshop notebooks are located at:
 
-### Step 2: Create Your Codespace
+```
+apps/py/workshop/
+```
 
-1. Click the green **Code** button on this repo
-2. Select **Codespaces** tab
-3. Click **Create codespace on main**
+### Opening a Notebook
 
-The Codespace will automatically install everything you need (this takes ~2 minutes).
+1. In the file explorer (left sidebar), navigate to `apps/py/workshop/`
+2. Click on any `.ipynb` file to open it
+3. The notebook will open in VS Code's Jupyter interface
 
-### Step 3: Start Working
+### Setting Up the Kernel (First Time)
 
-Once setup completes, you're ready:
+The first time you open a notebook, you need to select a Python kernel:
 
-- **Notebooks**: Open any `.ipynb` file in `apps/py/tutorial/` or `apps/py/workshop/`
-- **Interface**: Run `pnpm interface` to start the Next.js app
+1. Click **Select Kernel** in the top-right of the notebook (or you'll see a prompt)
+2. Choose **Python Environments**
+3. Select **Python 3.x** (the one with the path `/usr/local/bin/python`)
+
+> **Note:** You'll need to select a kernel each time you open a new notebook. After the first time, VS Code usually remembers your choice for that specific notebook.
+
+### Running Cells
+
+- Click the **▶ Play button** next to a cell to run it
+- Or press **Shift + Enter** to run and move to the next cell
+- Run cells in order from top to bottom
+
+---
+
+## Using Gemini CLI
+
+Gemini CLI is an AI assistant you can use in the terminal.
+
+### First-Time Setup
+
+1. Open a new terminal (Terminal → New Terminal, or `` Ctrl+` ``)
+2. Type `gemini` and press Enter
+3. You'll be prompted to log in:
+   - A URL will appear — click it or copy/paste into your browser
+   - Authorize with your Google account
+   - Copy the code you receive
+   - Paste it back into the terminal
+4. **Important:** After logging in, close that terminal and open a new one
+5. Now `gemini` will work normally
+
+### Using Gemini
+
+Once set up, just type `gemini` in any terminal to start a conversation with the AI assistant.
 
 ---
 
 ## Manual Setup (If Automatic Setup Fails)
 
-If you need to run setup manually:
+If the Codespace didn't set up correctly, run:
 
 ```bash
 bash setup.sh
 ```
+
+This installs all Python packages, sets up the Jupyter kernel, and installs the Gemini CLI.
 
 ---
 
@@ -49,9 +79,3 @@ apps/
 │   └── workshop/    # Hands-on exercises
 └── interface/       # Next.js web app
 ```
-
-## Requirements
-
-- Python 3.11+
-- Node.js 20+
-- OpenAI API key
