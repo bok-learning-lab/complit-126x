@@ -80,10 +80,20 @@ npm install -g @google/gemini-cli
 echo "   ✓ Gemini CLI installed (run 'gemini' to start)"
 
 # -----------------------------------------------------------------------------
-# 5. Install Node.js dependencies (for the interface app)
+# 5. Install Claude Code CLI
 # -----------------------------------------------------------------------------
 echo ""
-echo "📦 Step 5: Installing Node.js dependencies..."
+echo "🤖 Step 5: Installing Claude Code CLI..."
+
+curl -fsSL https://claude.ai/install.sh | bash
+
+echo "   ✓ Claude Code CLI installed"
+
+# -----------------------------------------------------------------------------
+# 6. Install Node.js dependencies (for the interface app)
+# -----------------------------------------------------------------------------
+echo ""
+echo "📦 Step 6: Installing Node.js dependencies..."
 
 # Check if pnpm is available, install if not
 if ! command -v pnpm &> /dev/null; then
@@ -102,10 +112,10 @@ cd ../..
 echo "   ✓ Node.js dependencies installed"
 
 # -----------------------------------------------------------------------------
-# 6. Create output directories for the workshop
+# 7. Create output directories for the workshop
 # -----------------------------------------------------------------------------
 echo ""
-echo "📁 Step 6: Creating output directories..."
+echo "📁 Step 7: Creating output directories..."
 
 mkdir -p apps/interface/public/cards
 mkdir -p apps/interface/data
@@ -113,10 +123,10 @@ mkdir -p apps/interface/data
 echo "   ✓ Output directories created"
 
 # -----------------------------------------------------------------------------
-# 7. Verify installation
+# 8. Verify installation
 # -----------------------------------------------------------------------------
 echo ""
-echo "🔍 Step 7: Verifying installation..."
+echo "🔍 Step 8: Verifying installation..."
 
 python3 << 'EOF'
 import sys
