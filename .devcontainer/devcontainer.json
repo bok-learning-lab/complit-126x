@@ -1,13 +1,11 @@
 {
   "name": "COMPLIT-126X",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "20"
     }
   },
-
   "customizations": {
     "vscode": {
       "extensions": [
@@ -30,15 +28,12 @@
       }
     }
   },
-
   "postCreateCommand": "bash setup.sh",
-
   "secrets": {
     "OPENAI_API_KEY": {
       "description": "Your OpenAI API key from platform.openai.com. Required for all notebook exercises."
     }
   },
-
   "forwardPorts": [3000],
   "portsAttributes": {
     "3000": {
