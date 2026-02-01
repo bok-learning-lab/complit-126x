@@ -2,6 +2,7 @@
   "name": "complit",
   "private": true,
   "scripts": {
+    "setup": "bash setup.sh",
     "interface": "pnpm --filter interface dev"
   }
 }
