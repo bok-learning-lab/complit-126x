@@ -41,8 +41,8 @@ function TagList({ tags }: { tags: string[] }) {
 }
 
 // Flatten all docs from navigation tree
-function getAllDocs(items: ContentItem[], folder: string): { title: string; content: string; path: string; tags: string[] }[] {
-  const docs: { title: string; content: string; path: string; tags: string[] }[] = [];
+function getAllDocs(items: ContentItem[], folder: string): { title: string | null; content: string; path: string; tags: string[] }[] {
+  const docs: { title: string | null; content: string; path: string; tags: string[] }[] = [];
 
   for (const item of items) {
     if (item.isDirectory && item.children) {
@@ -52,7 +52,7 @@ function getAllDocs(items: ContentItem[], folder: string): { title: string; cont
       const doc = getDoc(folder, slugPath);
       if (doc) {
         docs.push({
-          title: doc.metadata.title || item.title,
+          title: doc.metadata.title || null,
           content: doc.content,
           path: item.path,
           tags: Array.isArray(doc.metadata.tags) ? doc.metadata.tags : [],
@@ -75,7 +75,7 @@ export default async function PrintAllPage({ params }: PageProps) {
   const allDocs = getAllDocs(navigation, folder);
 
   // Sort alphabetically by title
-  allDocs.sort((a, b) => a.title.localeCompare(b.title));
+  allDocs.sort((a, b) => (a.title ?? '').localeCompare(b.title ?? ''));
 
   // Compile all docs
   const compiledDocs = await Promise.all(
@@ -110,7 +110,9 @@ export default async function PrintAllPage({ params }: PageProps) {
               key={doc.path}
               className={`prose prose-slate dark:prose-invert max-w-none prose-headings:font-extrabold prose-headings:tracking-tight prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-code:text-sm prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950 ${index > 0 ? 'print:break-before-page' : ''}`}
             >
-              <h1 className="text-4xl tracking-tight mb-2" style={{ fontWeight: 900 }}>{doc.title}</h1>
+              {doc.title && (
+                <h1 className="text-4xl tracking-tight mb-2" style={{ fontWeight: 900 }}>{doc.title}</h1>
+              )}
               <TagList tags={doc.tags} />
               <MDXContent>
                 <doc.Content components={mdxComponents} />
