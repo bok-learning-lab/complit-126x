@@ -1,3 +1,8 @@
+---
+sidebar_position: 5
+nav_title: "Addressing Skeptics"
+---
+
 # Addressing Skeptics
 
 ## Overview

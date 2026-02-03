@@ -1,3 +1,8 @@
+---
+sidebar_position: 6
+nav_title: "Humanities Method"
+---
+
 # Vibes-First as Humanities Method
 
 ## The Core Parallel

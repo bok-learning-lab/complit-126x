@@ -1,9 +1,9 @@
-import { getContentFolders, getContentNavigation, getDoc, type ContentItem } from '@/lib/content';
+import { getContentFolders, getContentNavigation, getDoc, type ContentItem } from '../_lib/content';
 import { notFound } from 'next/navigation';
 import { compile, run } from '@mdx-js/mdx';
 import * as runtime from 'react/jsx-runtime';
-import { mdxComponents } from '@/components/mdx';
-import { MDXContent } from '@/components/mdx-content';
+import { mdxComponents } from '../_components/mdx';
+import { MDXContent } from '../_components/mdx-content';
 import Link from 'next/link';
 
 interface PageProps {

@@ -1,5 +1,5 @@
-import { getContentFolders, getDoc } from '@/lib/content';
-import { assertValidFolder, resolveDocPath, renderContentPage } from '@/lib/content-page';
+import { getContentFolders, getDoc, getAllDocPaths } from '../_lib/content';
+import { assertValidFolder, resolveDocPath, renderContentPage } from '../_lib/content-page';
 
 interface PageProps {
   params: Promise<{
@@ -13,7 +13,6 @@ export async function generateStaticParams() {
   const allParams: { folder: string; slug: string[] }[] = [];
 
   for (const folder of folders) {
-    const { getAllDocPaths } = await import('@/lib/content');
     const paths = getAllDocPaths(folder);
 
     // Add root index for each folder

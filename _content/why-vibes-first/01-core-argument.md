@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+nav_title: "Core Argument"
+---
+
 # The Core Argument for Vibes-First Coding
 
 ## The Central Claim

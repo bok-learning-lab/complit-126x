@@ -1,3 +1,8 @@
+---
+sidebar_position: 7
+nav_title: "The Future"
+---
+
 # The Future of Vibes-First Learning
 
 ## Beyond Coding

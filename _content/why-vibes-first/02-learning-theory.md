@@ -1,3 +1,8 @@
+---
+sidebar_position: 2
+nav_title: "Learning Theory"
+---
+
 # Learning Theory Foundations
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+sidebar_position: 0
+nav_title: "Index"
+---
+
 # Vibes-First Coding: A Pedagogical Defense
 
 ## What This Collection Argues

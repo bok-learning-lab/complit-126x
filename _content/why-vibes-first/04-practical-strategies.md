@@ -1,3 +1,8 @@
+---
+sidebar_position: 4
+nav_title: "Practical Strategies"
+---
+
 # Practical Strategies for Responsible Vibe Coding
 
 ## Overview

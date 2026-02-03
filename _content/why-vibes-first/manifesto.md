@@ -1,3 +1,8 @@
+---
+sidebar_position: 8
+nav_title: "Manifesto"
+---
+
 # THE VIBES-FIRST MANIFESTO
 
 *For a New Computational Literacy*
