@@ -1,0 +1,77 @@
+# Bird Poems to Get
+
+- [ ] "A Bird came down the Walk" — Emily Dickinson
+- [ ] "A Route of Evanescence" — Emily Dickinson
+- [ ] "As Kingfishers Catch Fire" — Gerard Manley Hopkins
+- [ ] "Before you thought of Spring" — Emily Dickinson
+- [ ] "Conference of the Birds" (excerpts) — Farid ud-Din Attar
+- [ ] "Crow" (selections) — Ted Hughes
+- [ ] "Cymbeline" (Act 2, Scene 3: "Hark, hark! the lark") — Shakespeare
+- [ ] "Die Flamingos" — Rainer Maria Rilke
+- [ ] "Eagle Poem" — Joy Harjo
+- [ ] "El Cóndor" — Pablo Neruda
+- [ ] "Emmonsail's Heath in Winter" — John Clare
+- [ ] "Flamingo Watching" — Kay Ryan
+- [ ] "Hamlet" (Act 2, Scene 2: "I know a hawk from a handsaw") — Shakespeare
+- [ ] "Hawk Roosting" — Ted Hughes
+- [ ] "He 'Digesteth Harde Yron'" — Marianne Moore
+- [ ] "Hope is the thing with feathers" — Emily Dickinson
+- [ ] "Hurt Hawks" — Robinson Jeffers
+- [ ] "I dreaded that first Robin, so" — Emily Dickinson
+- [ ] "King Lear" (Act 1, Scene 4: "The hedge-sparrow fed the cuckoo") — Shakespeare
+- [ ] "Le Cygne" (The Swan) — Stéphane Mallarmé
+- [ ] "Leda and the Swan" — W. B. Yeats
+- [ ] "Macbeth" (Act 1, Scene 6: the martlet; Act 2: the owl) — Shakespeare
+- [ ] "Meadowlark" — Linda Hogan
+- [ ] "Merchant of Venice" (Act 5, Scene 1: "The crow doth sing as sweetly as the lark") — Shakespeare
+- [ ] "Oda al Picaflor" (Ode to the Hummingbird) — Pablo Neruda
+- [ ] "Ode to a Nightingale" — John Keats
+- [ ] "Ode to the Goose" (詠鵝) — Luo Binwang
+- [ ] "On a withered branch / a crow has settled" — Matsuo Bashō
+- [ ] "Passero Solitario" (The Solitary Sparrow) — Giacomo Leopardi
+- [ ] "Philomela" — Matthew Arnold
+- [ ] "Romeo and Juliet" (Act 3, Scene 5: lark vs. nightingale) — Shakespeare
+- [ ] "Sandpiper" — Elizabeth Bishop
+- [ ] "Sonnet 29" ("Like to the lark at break of day arising") — Shakespeare
+- [ ] "Sonnet 73" ("Bare ruined choirs, where late the sweet birds sang") — Shakespeare
+- [ ] "Sonnet 102" (Philomel in summer's front) — Shakespeare
+- [ ] "Split the Lark" — Emily Dickinson
+- [ ] "The Albatross" — Charles Baudelaire
+- [ ] "The Birds" (choral passages) — Aristophanes
+- [ ] "The Birds reported from the South" — Emily Dickinson
+- [ ] "The Black Swan" — Wallace Stevens
+- [ ] "The Caged Skylark" — Gerard Manley Hopkins
+- [ ] "The Cock and the Fox" — Chaucer
+- [ ] "The Darkling Thrush" — Thomas Hardy
+- [ ] "The Eagle" — Alfred Lord Tennyson
+- [ ] "The Frigate Pelican" — Marianne Moore
+- [ ] "The Green Linnet" — William Wordsworth
+- [ ] "The Heaven of Animals" — James Dickey
+- [ ] "The Mockingbird" — Randall Jarrell
+- [ ] "The Nightingale" — Sir Philip Sidney
+- [ ] "The Oven Bird" — Robert Frost
+- [ ] "The Owl and the Pussy-Cat" — Edward Lear
+- [ ] "The Parliament of Fowls" — Chaucer
+- [ ] "The Phoenix" — Sylvia Plath
+- [ ] "The Phoenix and the Turtle" — William Shakespeare
+- [ ] "The Raven" — Edgar Allan Poe
+- [ ] "The Rime of the Ancient Mariner" — Samuel Taylor Coleridge
+- [ ] "The Robin's my Criterion for Tune" — Emily Dickinson
+- [ ] "The Seafarer" — Anonymous (Old English)
+- [ ] "The Second Coming" — W. B. Yeats
+- [ ] "The Skylark" — Gerard Manley Hopkins
+- [ ] "The Solitary Goose" — Du Fu
+- [ ] "The Steeple-Jack" — Marianne Moore
+- [ ] "The Swan" — Charles Baudelaire
+- [ ] "The Swan" — Rainer Maria Rilke
+- [ ] "The Thrush's Nest" — John Clare
+- [ ] "The Way to know the Bobolink" — Emily Dickinson
+- [ ] "The Wild Swans at Coole" — W. B. Yeats
+- [ ] "The Windhover" — Gerard Manley Hopkins
+- [ ] "The Winter's Tale" (Act 4, Scene 4: swallow) — Shakespeare
+- [ ] "Thirteen Ways of Looking at a Blackbird" — Wallace Stevens
+- [ ] "To a Skylark" — Percy Bysshe Shelley
+- [ ] "To the Cuckoo" — William Wordsworth
+- [ ] "Two Golden Orioles" (絕句) — Du Fu
+- [ ] "Vulture" — Robinson Jeffers
+- [ ] "Wild Geese" — Mary Oliver
