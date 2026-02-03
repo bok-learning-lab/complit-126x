@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Creation Myths - Player Cards",
+  title: "CompLit 126x: Literature and/as AI",
   description: "AI-generated player cards from ancient creation narratives",
 };
 
